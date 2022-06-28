@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraAPI_POST", "ConsoleApp1\JiraAPI_POST.csproj", "{F9E31405-F635-40FA-BA99-40CB85DEE452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9E31405-F635-40FA-BA99-40CB85DEE452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E31405-F635-40FA-BA99-40CB85DEE452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E31405-F635-40FA-BA99-40CB85DEE452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E31405-F635-40FA-BA99-40CB85DEE452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1F6AF75-DC4B-49D0-99C0-E43C3E60C18E}
+	EndGlobalSection
+EndGlobal
