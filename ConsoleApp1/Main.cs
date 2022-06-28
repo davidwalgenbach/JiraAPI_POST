@@ -29,7 +29,7 @@ namespace IOnotification_System
             System.Net.Http.HttpClient client = new System.Net.Http.HttpClient();
             client.BaseAddress = new System.Uri(postUrl);
             //Converts your authentication information into Base64 for interpretation by Jira. In the format ("email:API_Token")
-            byte[] cred = UTF8Encoding.UTF8.GetBytes("david.walgenbach@icpms.com:1G3QjsFdfaYcKqhsSLiIEB89");
+            byte[] cred = UTF8Encoding.UTF8.GetBytes("EMAIL:API_TOKEN");
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(cred));
             client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
             System.Net.Http.Formatting.MediaTypeFormatter jsonFormatter = new System.Net.Http.Formatting.JsonMediaTypeFormatter();
